@@ -1,0 +1,22 @@
+body {
+  background-image: url("../assets/snow-fall.gif");
+  background-size: 180%;
+  padding-top: 50px;
+}
+
+#card {
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 80px;
+}
+
+#content {
+  font-family: 'Shadows Into Light Two', cursive;
+}
