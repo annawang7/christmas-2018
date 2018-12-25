@@ -61,6 +61,7 @@ body {
   padding: 1.5em;
   transform: translateZ(80px) scale(0.94);
 }
+
 .front {
 	background-image: url("../assets/snow-fall.gif");
   background-color: #fff;
@@ -93,6 +94,12 @@ body {
 	font-family: 'Cookie', cursive;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
+.front .button {
+	grid-row: 3;
+}
+.back img {
+	grid-column: 2;
+}
 .back {
   transform: rotateY(180deg);
   background-color: #fff;
@@ -108,15 +115,14 @@ body {
 	height: 80px;
 }
 .back .button {
-	grid-column: 1;
-	grid-row: 3;
-  justify-self: center;
+	justify-self: center;
+	width: 100px;
 }
 .back .content {
 	font-family: 'Open Sans', sans-serif;
+	grid-column: 1;
 }
 .button {
-  grid-row: 3;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
