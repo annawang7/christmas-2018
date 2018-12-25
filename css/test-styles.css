@@ -105,15 +105,24 @@ body {
 .back .title {
 	font-family: 'Cookie', cursive;
 	font-size: 80px;
-	height: 80px;
 }
 .back .button {
-	grid-column: 1;
-	grid-row: 3;
   justify-self: center;
 }
 .back .content {
+	display: grid;
+}
+.back img {
+	grid-column: 1;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.back .letter {
+	grid-column: 2;
 	font-family: 'Open Sans', sans-serif;
+}
+.back img {
+	width: 300px;
 }
 .button {
   grid-row: 3;
