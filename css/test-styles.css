@@ -116,13 +116,11 @@ body {
 	grid-column: 1;
 	padding-right: 20px;
 	padding-top: 20px;
+	width: 300px;
 }
 .back .letter {
 	grid-column: 2;
 	font-family: 'Open Sans', sans-serif;
-}
-.back img {
-	width: 300px;
 }
 .button {
   grid-row: 3;
